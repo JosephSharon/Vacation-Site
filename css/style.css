@@ -1,0 +1,31 @@
+body{
+  font-family: 'Heebo', sans-serif;
+  background-color: coral;
+}
+
+.beach{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+a{
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  background-color: gray;
+}
+
+#gallery{
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-auto-rows: auto;
+  margin: 10px;
+  align-content: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
